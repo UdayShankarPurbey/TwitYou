@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
@@ -10,7 +11,8 @@ import { NzMenuModule } from 'ng-zorro-antd/menu';
     CommonModule,
     NzIconModule,
     NzLayoutModule,
-    NzMenuModule
+    NzMenuModule,
+    RouterOutlet
   ],
   templateUrl: './page-layout.component.html',
   styleUrl: './page-layout.component.css'
